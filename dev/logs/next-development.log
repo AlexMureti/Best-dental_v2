@@ -1,0 +1,1912 @@
+[00:00:02.132] Server  LOG     
+[00:00:02.133] Server  LOG        We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+[00:00:02.134] Server  LOG        The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+[00:00:02.134] Server  LOG        	- include was updated to add '.next/dev/types/**/*.ts'
+[00:00:02.135] Server  LOG     
+[00:00:02.135] Server  LOG        The following mandatory changes were made to your tsconfig.json:
+
+[00:00:02.135] Server  LOG        	- jsx was set to react-jsx (next.js uses the React automatic runtime)
+[00:00:02.135] Server  LOG     
+[00:00:02.713] Server  LOG      ✓ Ready in 2.1s
+[00:00:11.771] Server  LOG      ○ Compiling / ...
+[00:00:26.209] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head headCacheNode={{lazyData:null, ...}}>
+                    <__next_viewport_boundary__>
+                    <Next.Metadata>
+                      <div
+                        hidden={true}
+-                       bis_skin_checked="1"
+                      >
+                    ...
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Downloads...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+                          className="inter_c15e96cb-module__0bjUvq__variable"
+-                         data-google-analytics-opt-out=""
+                        >
+                          <head>
+                          <body
+                            className="font-sans antialiased min-h-screen flex flex-col"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+-                           __processed_9390cdd9-ee23-41d6-8cc6-53ab0a95f18c__="true"
+-                           data-new-gr-c-s-check-loaded="14.1264.0"
+-                           data-gr-ext-installed=""
+                          >
+                            <a>
+                            <script>
+                            <Header>
+                              <header className="sticky top...">
+                                <nav className="mx-auto ma..." aria-label="Main navig...">
+                                  <div
+                                    className="flex h-16 items-center justify-between lg:h-20"
+-                                   bis_skin_checked="1"
+                                  >
+                                    <LinkComponent>
+                                    <div
+                                      className="hidden lg:flex lg:items-center lg:gap-8"
+-                                     bis_skin_checked="1"
+                                    >
+                                    <div
+                                      className="hidden lg:flex lg:items-center lg:gap-4"
+-                                     bis_skin_checked="1"
+                                    >
+                                    ...
+                            ...
+                              <SegmentViewNode type="page" pagePath="/Downloads...">
+                                <SegmentTrieNode>
+                                <HomePage>
+                                  <HomePage>
+                                    <Hero>
+                                      <section className="relative m..." aria-labelledby="hero-heading">
+                                        <div
+                                          className="absolute inset-0 z-0"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <video>
+                                          <div
+                                            className="absolute inset-0 bg-gradient-to-r from-dental-deep/80 via-denta..."
+-                                           bis_skin_checked="1"
+                                          >
+                                          <div
+                                            className="absolute inset-0 bg-gradient-to-t from-dental-primary/20 via-tr..."
+-                                           bis_skin_checked="1"
+                                          >
+                                        <button>
+                                        <div
+                                          className="relative z-10 mx-auto max-w-7xl px-4 py-24 sm:px-6 lg:px-8 lg:py-32"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="max-w-2xl"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="transition-all duration-700 ease-[cubic-bezier(0.22,0.9,0.32,..."
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="mb-6 inline-flex items-center gap-2 rounded-full bg-dental-..."
+-                                               bis_skin_checked="1"
+                                              >
+                                              <h1>
+                                              <p>
+                                              <div
+                                                className="mt-8 flex flex-wrap items-center gap-6 text-sm text-white/70"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="flex items-center gap-2"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                <div
+                                                  className="flex items-center gap-2"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                <div
+                                                  className="flex items-center gap-2"
+-                                                 bis_skin_checked="1"
+                                                >
+                                              <div
+                                                className="mt-10 flex flex-wrap gap-4 transition-all delay-100 duratio..."
+-                                               bis_skin_checked="1"
+                                              >
+                                          <div
+                                            className="absolute bottom-8 right-8 hidden lg:block transition-all delay-..."
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="rounded-2xl bg-white/10 backdrop-blur-md border border-white/..."
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="flex items-center gap-6"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="text-center"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                <div
+                                                  className="h-12 w-px bg-white/20"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                <div
+                                                  className="text-center"
+-                                                 bis_skin_checked="1"
+                                                >
+                                  <HomePage>
+                                    <ServicesGrid>
+                                      <section className="py-16 lg:p..." aria-labelledby="services-h...">
+                                        <div
+                                          className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="text-center"
+-                                           bis_skin_checked="1"
+                                          >
+                                          <div
+                                            className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <ServiceCard id="teeth-whit..." title="Teeth Whit..." ...>
+                                              <div
+                                                ref={{current:null}}
+                                                className="group transition-all duration-[420ms] ease-[cubic-bezier(0...."
+                                                style={{transitionDelay:"0ms"}}
+-                                               bis_skin_checked="1"
+                                              >
+                                                <LinkComponent href="/services/..." className="block h-fu...">
+                                                  <a className="block h-fu..." ref={function} onClick={function onClick} ...>
+                                                    <div
+                                                      className="flex h-12 w-12 items-center justify-center rounded-xl..."
+-                                                     bis_skin_checked="1"
+                                                    >
+                                                    <h3>
+                                                    <p>
+                                                    <div
+                                                      className="mt-4 flex items-center text-sm font-medium text-denta..."
+-                                                     bis_skin_checked="1"
+                                                    >
+                                            <ServiceCard id="dental-imp..." title="Dental Imp..." ...>
+                                              <div
+                                                ref={{current:null}}
+                                                className="group transition-all duration-[420ms] ease-[cubic-bezier(0...."
+                                                style={{transitionDelay:"80ms"}}
+-                                               bis_skin_checked="1"
+                                              >
+                                                <LinkComponent href="/services/..." className="block h-fu...">
+                                                  <a className="block h-fu..." ref={function} onClick={function onClick} ...>
+                                                    <div
+                                                      className="flex h-12 w-12 items-center justify-center rounded-xl..."
+-                                                     bis_skin_checked="1"
+                                                    >
+                                                    <h3>
+                                                    <p>
+                                                    <div
+                                                      className="mt-4 flex items-center text-sm font-medium text-denta..."
+-                                                     bis_skin_checked="1"
+                                                    >
+                                            <ServiceCard id="braces" title={"Braces &..."} ...>
+                                              <div
+                                                ref={{current:null}}
+                                                className="group transition-all duration-[420ms] ease-[cubic-bezier(0...."
+                                                style={{transitionDelay:"160ms"}}
+-                                               bis_skin_checked="1"
+                                              >
+                                                <LinkComponent href="/services/..." className="block h-fu...">
+                                                  <a className="block h-fu..." ref={function} onClick={function onClick} ...>
+                                                    <div
+                                                      className="flex h-12 w-12 items-center justify-center rounded-xl..."
+-                                                     bis_skin_checked="1"
+                                                    >
+                                                    <h3>
+                                                    <p>
+                                                    <div
+                                                      className="mt-4 flex items-center text-sm font-medium text-denta..."
+-                                                     bis_skin_checked="1"
+                                                    >
+                                            <ServiceCard id="veneers" title="Dental Ven..." ...>
+                                              <div
+                                                ref={{current:null}}
+                                                className="group transition-all duration-[420ms] ease-[cubic-bezier(0...."
+                                                style={{transitionDelay:"240ms"}}
+-                                               bis_skin_checked="1"
+                                              >
+                                                <LinkComponent href="/services/..." className="block h-fu...">
+                                                  <a className="block h-fu..." ref={function} onClick={function onClick} ...>
+                                                    <div
+                                                      className="flex h-12 w-12 items-center justify-center rounded-xl..."
+-                                                     bis_skin_checked="1"
+                                                    >
+                                                    <h3>
+                                                    <p>
+                                                    <div
+                                                      className="mt-4 flex items-center text-sm font-medium text-denta..."
+-                                                     bis_skin_checked="1"
+                                                    >
+                                            <ServiceCard id="root-canal" title="Root Canal..." ...>
+                                              <div
+                                                ref={{current:null}}
+                                                className="group transition-all duration-[420ms] ease-[cubic-bezier(0...."
+                                                style={{transitionDelay:"320ms"}}
+-                                               bis_skin_checked="1"
+                                              >
+                                                <LinkComponent href="/services/..." className="block h-fu...">
+                                                  <a className="block h-fu..." ref={function} onClick={function onClick} ...>
+                                                    <div
+                                                      className="flex h-12 w-12 items-center justify-center rounded-xl..."
+-                                                     bis_skin_checked="1"
+                                                    >
+                                                    <h3>
+                                                    <p>
+                                                    <div
+                                                      className="mt-4 flex items-center text-sm font-medium text-denta..."
+-                                                     bis_skin_checked="1"
+                                                    >
+                                            <ServiceCard id="smile-make..." title="Smile Make..." ...>
+                                              <div
+                                                ref={{current:null}}
+                                                className="group transition-all duration-[420ms] ease-[cubic-bezier(0...."
+                                                style={{transitionDelay:"400ms"}}
+-                                               bis_skin_checked="1"
+                                              >
+                                                <LinkComponent href="/services/..." className="block h-fu...">
+                                                  <a className="block h-fu..." ref={function} onClick={function onClick} ...>
+                                                    <div
+                                                      className="flex h-12 w-12 items-center justify-center rounded-xl..."
+-                                                     bis_skin_checked="1"
+                                                    >
+                                                    <h3>
+                                                    <p>
+                                                    <div
+                                                      className="mt-4 flex items-center text-sm font-medium text-denta..."
+-                                                     bis_skin_checked="1"
+                                                    >
+                                  <HomePage>
+                                    <TestimonialCarousel>
+                                      <section className="py-16 lg:p..." aria-labelledby="testimonia...">
+                                        <div
+                                          className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <h2>
+                                          <div
+                                            className="mt-12 relative"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="rounded-2xl glass-strong p-8 shadow-glow md:p-12"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="flex justify-center gap-1"
+                                                aria-label="5 out of 5 stars"
+-                                               bis_skin_checked="1"
+                                              >
+                                              <blockquote>
+                                              <div
+                                                className="mt-6 flex flex-col items-center"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="relative h-16 w-16 overflow-hidden rounded-full ring-2 ri..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                <div
+                                                  className="mt-3 text-center"
+-                                                 bis_skin_checked="1"
+                                                >
+                                            <div
+                                              className="mt-6 flex items-center justify-center gap-4"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <Button>
+                                              <div
+                                                className="flex gap-2"
+                                                role="tablist"
+                                                aria-label="Testimonial navigation"
+-                                               bis_skin_checked="1"
+                                              >
+                                              ...
+                                  <HomePage>
+                                    <section className="py-16 lg:p..." aria-labelledby="why-us-hea...">
+                                      <div
+                                        className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"
+-                                       bis_skin_checked="1"
+                                      >
+                                        <div
+                                          className="grid gap-12 lg:grid-cols-2 lg:gap-16 items-center"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+-                                           bis_skin_checked="1"
+                                          >
+                                          <div
+                                            className="rounded-2xl glass-strong p-6 shadow-glow"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <h3>
+                                            <div
+                                              className="mt-6 space-y-4"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="flex items-start gap-3"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <svg>
+                                                <div
+-                                                 bis_skin_checked="1"
+                                                >
+                                              <div
+                                                className="flex items-start gap-3"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <svg>
+                                                <div
+-                                                 bis_skin_checked="1"
+                                                >
+                                              <div
+                                                className="flex items-start gap-3"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <svg>
+                                                <div
+-                                                 bis_skin_checked="1"
+                                                >
+                                            <div
+                                              className="mt-6"
+-                                             bis_skin_checked="1"
+                                            >
+                                  <HomePage>
+                                    <section className="bg-gradien...">
+                                      <div
+                                        className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"
+-                                       bis_skin_checked="1"
+                                      >
+                                        <div
+                                          className="grid gap-12 lg:grid-cols-2 items-start"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+-                                           bis_skin_checked="1"
+                                          >
+                                            <h2>
+                                            <p>
+                                            <div
+                                              className="mt-6 rounded-xl glass p-4"
+-                                             bis_skin_checked="1"
+                                            >
+                                          <BookingForm>
+                                            <form onSubmit={function handleSubmit} className="rounded-2x..." ...>
+                                              <h3>
+                                              <p>
+                                              <div
+                                                className="mt-6 space-y-5"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+-                                                 bis_skin_checked="1"
+                                                >
+-                                                 <div
+-                                                   data-lastpass-icon-root=""
+-                                                   style={{position:"relative",height:"0px",width:"0px",display:"initial",float:"left"}}
+-                                                 >
+                                                ...
+                            ...
+                  ...
+
+[00:00:26.836] Browser WARN    Image with src "http://localhost:3000/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:26.836] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:26.837] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:26.837] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:26.837] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764755826581}
+[00:00:26.837] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764755826583}
+[00:00:52.444] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Downloads...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+                          className="inter_c15e96cb-module__0bjUvq__variable"
+-                         data-google-analytics-opt-out=""
+                        >
+                          <head>
+                          <body
+                            className="font-sans antialiased min-h-screen flex flex-col"
+-                           __processed_040a17d1-9ef7-4ae1-ae12-7c68e62aa4dc__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+                          >
+                            <a>
+                            <script>
+                            <Header>
+                              <header className="sticky top...">
+                                <nav className="mx-auto ma..." aria-label="Main navig...">
+                                  <div
+                                    className="flex h-16 items-center justify-between lg:h-20"
+-                                   bis_skin_checked="1"
+                                  >
+                                    <LinkComponent>
+                                    <div
+                                      className="hidden lg:flex lg:items-center lg:gap-8"
+-                                     bis_skin_checked="1"
+                                    >
+                                    <div
+                                      className="hidden lg:flex lg:items-center lg:gap-4"
+-                                     bis_skin_checked="1"
+                                    >
+                                    ...
+                            ...
+                              <SegmentViewNode type="page" pagePath="/Downloads...">
+                                <SegmentTrieNode>
+                                <HomePage>
+                                  <HomePage>
+                                    <Hero>
+                                      <section className="relative m..." aria-labelledby="hero-heading">
+                                        <div
+                                          className="absolute inset-0 z-0"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <video>
+                                          <div
+                                            className="absolute inset-0 bg-gradient-to-r from-dental-deep/80 via-denta..."
+-                                           bis_skin_checked="1"
+                                          >
+                                          <div
+                                            className="absolute inset-0 bg-gradient-to-t from-dental-primary/20 via-tr..."
+-                                           bis_skin_checked="1"
+                                          >
+                                        <button>
+                                        <div
+                                          className="relative z-10 mx-auto max-w-7xl px-4 py-24 sm:px-6 lg:px-8 lg:py-32"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="max-w-2xl"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="transition-all duration-700 ease-[cubic-bezier(0.22,0.9,0.32,..."
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="mb-6 inline-flex items-center gap-2 rounded-full bg-dental-..."
+-                                               bis_skin_checked="1"
+                                              >
+                                              <h1>
+                                              <p>
+                                              <div
+                                                className="mt-8 flex flex-wrap items-center gap-6 text-sm text-white/70"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="flex items-center gap-2"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                <div
+                                                  className="flex items-center gap-2"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                <div
+                                                  className="flex items-center gap-2"
+-                                                 bis_skin_checked="1"
+                                                >
+                                              <div
+                                                className="mt-10 flex flex-wrap gap-4 transition-all delay-100 duratio..."
+-                                               bis_skin_checked="1"
+                                              >
+                                          <div
+                                            className="absolute bottom-8 right-8 hidden lg:block transition-all delay-..."
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="rounded-2xl bg-white/10 backdrop-blur-md border border-white/..."
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="flex items-center gap-6"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="text-center"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                <div
+                                                  className="h-12 w-px bg-white/20"
+-                                                 bis_skin_checked="1"
+                                                >
+                                                <div
+                                                  className="text-center"
+-                                                 bis_skin_checked="1"
+                                                >
+                                  <HomePage>
+                                    <ServicesGrid>
+                                      <section className="py-16 lg:p..." aria-labelledby="services-h...">
+                                        <div
+                                          className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="text-center"
+-                                           bis_skin_checked="1"
+                                          >
+                                          <div
+                                            className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <ServiceCard id="teeth-whit..." title="Teeth Whit..." ...>
+                                              <div
+                                                ref={{current:null}}
+                                                className="group transition-all duration-[420ms] ease-[cubic-bezier(0...."
+                                                style={{transitionDelay:"0ms"}}
+-                                               bis_skin_checked="1"
+                                              >
+                                                <LinkComponent href="/services/..." className="block h-fu...">
+                                                  <a className="block h-fu..." ref={function} onClick={function onClick} ...>
+                                                    <div
+                                                      className="flex h-12 w-12 items-center justify-center rounded-xl..."
+-                                                     bis_skin_checked="1"
+                                                    >
+                                                    <h3>
+                                                    <p>
+                                                    <div
+                                                      className="mt-4 flex items-center text-sm font-medium text-denta..."
+-                                                     bis_skin_checked="1"
+                                                    >
+                                            <ServiceCard id="dental-imp..." title="Dental Imp..." ...>
+                                              <div
+                                                ref={{current:null}}
+                                                className="group transition-all duration-[420ms] ease-[cubic-bezier(0...."
+                                                style={{transitionDelay:"80ms"}}
+-                                               bis_skin_checked="1"
+                                              >
+                                                <LinkComponent href="/services/..." className="block h-fu...">
+                                                  <a className="block h-fu..." ref={function} onClick={function onClick} ...>
+                                                    <div
+                                                      className="flex h-12 w-12 items-center justify-center rounded-xl..."
+-                                                     bis_skin_checked="1"
+                                                    >
+                                                    <h3>
+                                                    <p>
+                                                    <div
+                                                      className="mt-4 flex items-center text-sm font-medium text-denta..."
+-                                                     bis_skin_checked="1"
+                                                    >
+                                            <ServiceCard id="braces" title={"Braces &..."} ...>
+                                              <div
+                                                ref={{current:null}}
+                                                className="group transition-all duration-[420ms] ease-[cubic-bezier(0...."
+                                                style={{transitionDelay:"160ms"}}
+-                                               bis_skin_checked="1"
+                                              >
+                                                <LinkComponent href="/services/..." className="block h-fu...">
+                                                  <a className="block h-fu..." ref={function} onClick={function onClick} ...>
+                                                    <div
+                                                      className="flex h-12 w-12 items-center justify-center rounded-xl..."
+-                                                     bis_skin_checked="1"
+                                                    >
+                                                    <h3>
+                                                    <p>
+                                                    <div
+                                                      className="mt-4 flex items-center text-sm font-medium text-denta..."
+-                                                     bis_skin_checked="1"
+                                                    >
+                                            <ServiceCard id="veneers" title="Dental Ven..." ...>
+                                              <div
+                                                ref={{current:null}}
+                                                className="group transition-all duration-[420ms] ease-[cubic-bezier(0...."
+                                                style={{transitionDelay:"240ms"}}
+-                                               bis_skin_checked="1"
+                                              >
+                                                <LinkComponent href="/services/..." className="block h-fu...">
+                                                  <a className="block h-fu..." ref={function} onClick={function onClick} ...>
+                                                    <div
+                                                      className="flex h-12 w-12 items-center justify-center rounded-xl..."
+-                                                     bis_skin_checked="1"
+                                                    >
+                                                    <h3>
+                                                    <p>
+                                                    <div
+                                                      className="mt-4 flex items-center text-sm font-medium text-denta..."
+-                                                     bis_skin_checked="1"
+                                                    >
+                                            <ServiceCard id="root-canal" title="Root Canal..." ...>
+                                              <div
+                                                ref={{current:null}}
+                                                className="group transition-all duration-[420ms] ease-[cubic-bezier(0...."
+                                                style={{transitionDelay:"320ms"}}
+-                                               bis_skin_checked="1"
+                                              >
+                                                <LinkComponent href="/services/..." className="block h-fu...">
+                                                  <a className="block h-fu..." ref={function} onClick={function onClick} ...>
+                                                    <div
+                                                      className="flex h-12 w-12 items-center justify-center rounded-xl..."
+-                                                     bis_skin_checked="1"
+                                                    >
+                                                    <h3>
+                                                    <p>
+                                                    <div
+                                                      className="mt-4 flex items-center text-sm font-medium text-denta..."
+-                                                     bis_skin_checked="1"
+                                                    >
+                                            <ServiceCard id="smile-make..." title="Smile Make..." ...>
+                                              <div
+                                                ref={{current:null}}
+                                                className="group transition-all duration-[420ms] ease-[cubic-bezier(0...."
+                                                style={{transitionDelay:"400ms"}}
+-                                               bis_skin_checked="1"
+                                              >
+                                                <LinkComponent href="/services/..." className="block h-fu...">
+                                                  <a className="block h-fu..." ref={function} onClick={function onClick} ...>
+                                                    <div
+                                                      className="flex h-12 w-12 items-center justify-center rounded-xl..."
+-                                                     bis_skin_checked="1"
+                                                    >
+                                                    <h3>
+                                                    <p>
+                                                    <div
+                                                      className="mt-4 flex items-center text-sm font-medium text-denta..."
+-                                                     bis_skin_checked="1"
+                                                    >
+                                  <HomePage>
+                                    <TestimonialCarousel>
+                                      <section className="py-16 lg:p..." aria-labelledby="testimonia...">
+                                        <div
+                                          className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <h2>
+                                          <div
+                                            className="mt-12 relative"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <div
+                                              className="rounded-2xl glass-strong p-8 shadow-glow md:p-12"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="flex justify-center gap-1"
+                                                aria-label="5 out of 5 stars"
+-                                               bis_skin_checked="1"
+                                              >
+                                              <blockquote>
+                                              <div
+                                                className="mt-6 flex flex-col items-center"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="relative h-16 w-16 overflow-hidden rounded-full ring-2 ri..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                <div
+                                                  className="mt-3 text-center"
+-                                                 bis_skin_checked="1"
+                                                >
+                                            <div
+                                              className="mt-6 flex items-center justify-center gap-4"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <Button>
+                                              <div
+                                                className="flex gap-2"
+                                                role="tablist"
+                                                aria-label="Testimonial navigation"
+-                                               bis_skin_checked="1"
+                                              >
+                                              ...
+                                  <HomePage>
+                                    <section className="py-16 lg:p..." aria-labelledby="why-us-hea...">
+                                      <div
+                                        className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"
+-                                       bis_skin_checked="1"
+                                      >
+                                        <div
+                                          className="grid gap-12 lg:grid-cols-2 lg:gap-16 items-center"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+-                                           bis_skin_checked="1"
+                                          >
+                                          <div
+                                            className="rounded-2xl glass-strong p-6 shadow-glow"
+-                                           bis_skin_checked="1"
+                                          >
+                                            <h3>
+                                            <div
+                                              className="mt-6 space-y-4"
+-                                             bis_skin_checked="1"
+                                            >
+                                              <div
+                                                className="flex items-start gap-3"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <svg>
+                                                <div
+-                                                 bis_skin_checked="1"
+                                                >
+                                              <div
+                                                className="flex items-start gap-3"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <svg>
+                                                <div
+-                                                 bis_skin_checked="1"
+                                                >
+                                              <div
+                                                className="flex items-start gap-3"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <svg>
+                                                <div
+-                                                 bis_skin_checked="1"
+                                                >
+                                            <div
+                                              className="mt-6"
+-                                             bis_skin_checked="1"
+                                            >
+                                  <HomePage>
+                                    <section className="bg-gradien...">
+                                      <div
+                                        className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"
+-                                       bis_skin_checked="1"
+                                      >
+                                        <div
+                                          className="grid gap-12 lg:grid-cols-2 items-start"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+-                                           bis_skin_checked="1"
+                                          >
+                                            <h2>
+                                            <p>
+                                            <div
+                                              className="mt-6 rounded-xl glass p-4"
+-                                             bis_skin_checked="1"
+                                            >
+                                          <BookingForm>
+                                            <form onSubmit={function handleSubmit} className="rounded-2x..." ...>
+                                              <h3>
+                                              <p>
+                                              <div
+                                                className="mt-6 space-y-5"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+-                                                 bis_skin_checked="1"
+                                                >
+-                                                 <div
+-                                                   data-lastpass-icon-root=""
+-                                                   bis_skin_checked="1"
+-                                                   style={{position:"relative",height:"0px",width:"0px",display:"initial",float:"left"}}
+-                                                 >
+                                                ...
+                            ...
+                  ...
+
+[00:00:52.772] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:52.772] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:52.772] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:52.772] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764755852408}
+[00:00:52.772] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764755852408}
+[00:00:52.772] Browser WARN    Image with src "http://localhost:3000/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:18.738] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:01:18.738] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:01:20.707] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:01:20.707] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:01:41.009] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:01:41.009] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:01:54.863] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/testimonials color: rgb(120, 120, 120) color: inherit {"dp":"/testimonials","o":"http://localhost:3000/testimonials","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764755914606}
+[00:02:03.847] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764755923689}
+[00:02:20.631] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/gallery color: rgb(120, 120, 120) color: inherit {"dp":"/gallery","o":"http://localhost:3000/gallery","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764755940478}
+[00:03:45.564] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764756025416}
+[00:12:47.863] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/gallery color: rgb(120, 120, 120) color: inherit {"dp":"/gallery","o":"http://localhost:3000/gallery","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764756567712}
+[00:13:00.238] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/gallery" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head headCacheNode={{lazyData:null, ...}}>
+                    <__next_viewport_boundary__>
+                    <Next.Metadata>
+                      <div
+                        hidden={true}
+-                       bis_skin_checked="1"
+                      >
+                    ...
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Downloads...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+                          className="inter_c15e96cb-module__0bjUvq__variable"
+-                         data-google-analytics-opt-out=""
+                        >
+                          <head>
+                          <body
+                            className="font-sans antialiased min-h-screen flex flex-col"
+-                           __processed_4a81ca07-4139-4218-9793-8507e9fb7156__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+-                           data-new-gr-c-s-check-loaded="14.1264.0"
+-                           data-gr-ext-installed=""
+                          >
+                            <a>
+                            <script>
+                            <Header>
+                              <header className="sticky top...">
+                                <nav className="mx-auto ma..." aria-label="Main navig...">
+                                  <div
+                                    className="flex h-16 items-center justify-between lg:h-20"
+-                                   bis_skin_checked="1"
+                                  >
+                                    <LinkComponent>
+                                    <div
+                                      className="hidden lg:flex lg:items-center lg:gap-8"
+-                                     bis_skin_checked="1"
+                                    >
+                                    <div
+                                      className="hidden lg:flex lg:items-center lg:gap-4"
+-                                     bis_skin_checked="1"
+                                    >
+                                    ...
+                            ...
+                              <SegmentViewNode type="page" pagePath="/Downloads...">
+                                <SegmentTrieNode>
+                                <GalleryPage>
+                                  <GalleryPage>
+                                    <PageHero title="Smile Gallery" description={"Real res..."} imageSrc="/services-...">
+                                      <section className="relative m...">
+                                        <div
+                                          className="absolute inset-0 z-0"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="h-full w-full bg-cover bg-center scale-105"
+                                            style={{backgroundImage:"url(/servi..."}}
+                                            aria-hidden="true"
+-                                           bis_skin_checked="1"
+                                          >
+                                          <div
+                                            className="absolute inset-0 bg-gradient-to-b from-dental-deep/50 via-denta..."
+-                                           bis_skin_checked="1"
+                                          >
+                                          <div
+                                            className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--t..."
+-                                           bis_skin_checked="1"
+                                          >
+                                        <div
+                                          className="relative z-10 mx-auto max-w-7xl px-4 py-24 text-center sm:px-6 lg..."
+-                                         bis_skin_checked="1"
+                                        >
+                                        <div
+                                          className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-denta..."
+-                                         bis_skin_checked="1"
+                                        >
+                                  <GalleryPage>
+                                    <section className="py-12 bg-g...">
+                                      <div
+                                        className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gr..."
+-                                       bis_skin_checked="1"
+                                      >
+                                      <div
+                                        className="relative z-10 mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center"
+-                                       bis_skin_checked="1"
+                                      >
+                                        <div
+                                          className="inline-flex items-center gap-4 justify-center flex-wrap"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="flex items-center gap-2 rounded-full bg-dental-secondary/20 px-..."
+-                                           bis_skin_checked="1"
+                                          >
+                                          <div
+                                            className="flex items-center gap-2 rounded-full bg-dental-glow/20 px-5 py-..."
+-                                           bis_skin_checked="1"
+                                          >
+                                  <GalleryPage>
+                                    <section className="py-16 lg:p...">
+                                      <div
+                                        className="absolute top-1/4 -left-32 w-96 h-96 bg-dental-secondary/10 rounded-..."
+-                                       bis_skin_checked="1"
+                                      >
+                                      <div
+                                        className="absolute bottom-1/4 -right-32 w-96 h-96 bg-dental-glow/10 rounded-f..."
+-                                       bis_skin_checked="1"
+                                      >
+                                      <div
+                                        className="relative z-10 mx-auto max-w-6xl px-4 sm:px-6 lg:px-8"
+-                                       bis_skin_checked="1"
+                                      >
+                                        ...
+                                          <TabsProvider scope={undefined} baseId="radix-_R_f..." value="transforma..." ...>
+                                            <Primitive.div dir="ltr" data-orientation="horizontal" data-slot="tabs" ...>
+                                              <div
+                                                dir="ltr"
+                                                data-orientation="horizontal"
+                                                data-slot="tabs"
+                                                className="flex flex-col gap-2 w-full"
+                                                ref={null}
+-                                               bis_skin_checked="1"
+                                              >
+                                                ...
+                                                  <Slot tabIndex={-1} data-orientation="horizontal" ...>
+                                                    <SlotClone tabIndex={-1} data-orientation="horizontal" ...>
+                                                      <Primitive.div role="tablist" aria-orientation="horizontal" ...>
+                                                        <div
+                                                          role="tablist"
+                                                          aria-orientation="horizontal"
+                                                          data-slot="tabs-list"
+                                                          className="text-muted-foreground items-center justify-center..."
+                                                          tabIndex={-1}
+                                                          data-orientation="horizontal"
+                                                          style={{outline:"none"}}
+                                                          onMouseDown={function handleEvent}
+                                                          onFocus={function handleEvent}
+                                                          onBlur={function handleEvent}
+                                                          ref={function}
+-                                                         bis_skin_checked="1"
+                                                        >
+                                                <TabsContent value="transforma...">
+                                                  <TabsContent data-slot="tabs-content" className="flex-1 out..." ...>
+                                                    <Presence present={true}>
+                                                      <Primitive.div data-state="active" data-orientation="horizontal" ...>
+                                                        <div
+                                                          data-state="active"
+                                                          data-orientation="horizontal"
+                                                          role="tabpanel"
+                                                          aria-labelledby="radix-_R_fpbn5rilb_-trigger-transformations"
+                                                          hidden={false}
+                                                          id="radix-_R_fpbn5rilb_-content-transformations"
+                                                          tabIndex={0}
+                                                          data-slot="tabs-content"
+                                                          className="flex-1 outline-none"
+                                                          style={{animationDuration:"0s"}}
+                                                          ref={function}
+-                                                         bis_skin_checked="1"
+                                                        >
+                                                          <div
+                                                            className="grid gap-8 md:grid-cols-2"
+-                                                           bis_skin_checked="1"
+                                                          >
+                                                            <div
+                                                              id="gallery-1"
+                                                              data-gallery-item={true}
+                                                              className="group relative rounded-2xl transition-all dur..."
+                                                              style={{transitionDelay:"0ms"}}
+-                                                             bis_skin_checked="1"
+                                                            >
+                                                              <div
+                                                                className="absolute -inset-1 bg-gradient-to-r from-den..."
+-                                                               bis_skin_checked="1"
+                                                              >
+                                                              <div
+                                                                className="relative bg-white/5 backdrop-blur-md border..."
+-                                                               bis_skin_checked="1"
+                                                              >
+                                                                <button onClick={function onClick} ...>
+                                                                  <div
+                                                                    className="grid grid-cols-2 gap-4"
+-                                                                   bis_skin_checked="1"
+                                                                  >
+                                                                    <div
+                                                                      className="relative aspect-square overflow-hidde..."
+-                                                                     bis_skin_checked="1"
+                                                                    >
+                                                                      <img>
+                                                                      <div
+                                                                        className="absolute inset-0 bg-gradient-to-t f..."
+-                                                                       bis_skin_checked="1"
+                                                                      >
+                                                                      ...
+                                                                    <div
+                                                                      className="relative aspect-square overflow-hidde..."
+-                                                                     bis_skin_checked="1"
+                                                                    >
+                                                                      <img>
+                                                                      <div
+                                                                        className="absolute inset-0 bg-gradient-to-t f..."
+-                                                                       bis_skin_checked="1"
+                                                                      >
+                                                                      ...
+                                                                  <div
+                                                                    className="mt-5 flex items-center justify-between"
+-                                                                   bis_skin_checked="1"
+                                                                  >
+                                                                    <div
+-                                                                     bis_skin_checked="1"
+                                                                    >
+                                                                    <div
+                                                                      className="flex h-10 w-10 items-center justify-c..."
+-                                                                     bis_skin_checked="1"
+                                                                    >
+                                                            <div
+                                                              id="gallery-2"
+                                                              data-gallery-item={true}
+                                                              className="group relative rounded-2xl transition-all dur..."
+                                                              style={{transitionDelay:"80ms"}}
+-                                                             bis_skin_checked="1"
+                                                            >
+                                                              <div
+                                                                className="absolute -inset-1 bg-gradient-to-r from-den..."
+-                                                               bis_skin_checked="1"
+                                                              >
+                                                              <div
+                                                                className="relative bg-white/5 backdrop-blur-md border..."
+-                                                               bis_skin_checked="1"
+                                                              >
+                                                                <button onClick={function onClick} ...>
+                                                                  <div
+                                                                    className="grid grid-cols-2 gap-4"
+-                                                                   bis_skin_checked="1"
+                                                                  >
+                                                                    <div
+                                                                      className="relative aspect-square overflow-hidde..."
+-                                                                     bis_skin_checked="1"
+                                                                    >
+                                                                      <img>
+                                                                      <div
+                                                                        className="absolute inset-0 bg-gradient-to-t f..."
+-                                                                       bis_skin_checked="1"
+                                                                      >
+                                                                      ...
+                                                                    <div
+                                                                      className="relative aspect-square overflow-hidde..."
+-                                                                     bis_skin_checked="1"
+                                                                    >
+                                                                      <img>
+                                                                      <div
+                                                                        className="absolute inset-0 bg-gradient-to-t f..."
+-                                                                       bis_skin_checked="1"
+                                                                      >
+                                                                      ...
+                                                                  <div
+                                                                    className="mt-5 flex items-center justify-between"
+-                                                                   bis_skin_checked="1"
+                                                                  >
+                                                                    <div
+-                                                                     bis_skin_checked="1"
+                                                                    >
+                                                                    <div
+                                                                      className="flex h-10 w-10 items-center justify-c..."
+-                                                                     bis_skin_checked="1"
+                                                                    >
+                                                            <div
+                                                              id="gallery-3"
+                                                              data-gallery-item={true}
+                                                              className="group relative rounded-2xl transition-all dur..."
+                                                              style={{transitionDelay:"160ms"}}
+-                                                             bis_skin_checked="1"
+                                                            >
+                                                              <div
+                                                                className="absolute -inset-1 bg-gradient-to-r from-den..."
+-                                                               bis_skin_checked="1"
+                                                              >
+                                                              <div
+                                                                className="relative bg-white/5 backdrop-blur-md border..."
+-                                                               bis_skin_checked="1"
+                                                              >
+                                                                <button onClick={function onClick} ...>
+                                                                  <div
+                                                                    className="grid grid-cols-2 gap-4"
+-                                                                   bis_skin_checked="1"
+                                                                  >
+                                                                    <div
+                                                                      className="relative aspect-square overflow-hidde..."
+-                                                                     bis_skin_checked="1"
+                                                                    >
+                                                                      <img>
+                                                                      <div
+                                                                        className="absolute inset-0 bg-gradient-to-t f..."
+-                                                                       bis_skin_checked="1"
+                                                                      >
+                                                                      ...
+                                                                    <div
+                                                                      className="relative aspect-square overflow-hidde..."
+-                                                                     bis_skin_checked="1"
+                                                                    >
+                                                                      <img>
+                                                                      <div
+                                                                        className="absolute inset-0 bg-gradient-to-t f..."
+-                                                                       bis_skin_checked="1"
+                                                                      >
+                                                                      ...
+                                                                  <div
+                                                                    className="mt-5 flex items-center justify-between"
+-                                                                   bis_skin_checked="1"
+                                                                  >
+                                                                    <div
+-                                                                     bis_skin_checked="1"
+                                                                    >
+                                                                    <div
+                                                                      className="flex h-10 w-10 items-center justify-c..."
+-                                                                     bis_skin_checked="1"
+                                                                    >
+                                                            <div
+                                                              id="gallery-4"
+                                                              data-gallery-item={true}
+                                                              className="group relative rounded-2xl transition-all dur..."
+                                                              style={{transitionDelay:"240ms"}}
+-                                                             bis_skin_checked="1"
+                                                            >
+                                                              <div
+                                                                className="absolute -inset-1 bg-gradient-to-r from-den..."
+-                                                               bis_skin_checked="1"
+                                                              >
+                                                              <div
+                                                                className="relative bg-white/5 backdrop-blur-md border..."
+-                                                               bis_skin_checked="1"
+                                                              >
+                                                                <button onClick={function onClick} ...>
+                                                                  <div
+                                                                    className="grid grid-cols-2 gap-4"
+-                                                                   bis_skin_checked="1"
+                                                                  >
+                                                                    <div
+                                                                      className="relative aspect-square overflow-hidde..."
+-                                                                     bis_skin_checked="1"
+                                                                    >
+                                                                      <img>
+                                                                      <div
+                                                                        className="absolute inset-0 bg-gradient-to-t f..."
+-                                                                       bis_skin_checked="1"
+                                                                      >
+                                                                      ...
+                                                                    <div
+                                                                      className="relative aspect-square overflow-hidde..."
+-                                                                     bis_skin_checked="1"
+                                                                    >
+                                                                      <img>
+                                                                      <div
+                                                                        className="absolute inset-0 bg-gradient-to-t f..."
+-                                                                       bis_skin_checked="1"
+                                                                      >
+                                                                      ...
+                                                                  <div
+                                                                    className="mt-5 flex items-center justify-between"
+-                                                                   bis_skin_checked="1"
+                                                                  >
+                                                                    <div
+-                                                                     bis_skin_checked="1"
+                                                                    >
+                                                                    <div
+                                                                      className="flex h-10 w-10 items-center justify-c..."
+-                                                                     bis_skin_checked="1"
+                                                                    >
+                                                <TabsContent value="equipment">
+                                                  <TabsContent data-slot="tabs-content" className="flex-1 out..." ...>
+                                                    <Presence present={false}>
+                                                      <Primitive.div data-state="inactive" data-orientation="horizontal" ...>
+                                                        <div
+                                                          data-state="inactive"
+                                                          data-orientation="horizontal"
+                                                          role="tabpanel"
+                                                          aria-labelledby="radix-_R_fpbn5rilb_-trigger-equipment"
+                                                          hidden={true}
+                                                          id="radix-_R_fpbn5rilb_-content-equipment"
+                                                          tabIndex={0}
+                                                          data-slot="tabs-content"
+                                                          className="flex-1 outline-none"
+                                                          style={{animationDuration:undefined}}
+                                                          ref={function}
+-                                                         bis_skin_checked="1"
+                                                        >
+                            <Footer>
+                              <footer className="bg-gradien..." role="contentinfo">
+                                <div
+                                  className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16"
+-                                 bis_skin_checked="1"
+                                >
+                                  <div
+                                    className="grid gap-8 lg:grid-cols-4"
+-                                   bis_skin_checked="1"
+                                  >
+                                    <div
+                                      className="lg:col-span-1"
+-                                     bis_skin_checked="1"
+                                    >
+                                      <img>
+                                      <p>
+                                      <div
+                                        className="mt-6 flex items-center gap-4"
+-                                       bis_skin_checked="1"
+                                      >
+                                    <div
+-                                     bis_skin_checked="1"
+                                    >
+                                    <div
+-                                     bis_skin_checked="1"
+                                    >
+                                    <div
+-                                     bis_skin_checked="1"
+                                    >
+                                      <h3>
+                                      <ul className="mt-4 space...">
+                                        <li>
+                                        <li>
+                                        <li>
+                                        <li className="flex items...">
+                                          <svg>
+                                          <div
+                                            className="text-sm text-white/70"
+-                                           bis_skin_checked="1"
+                                          >
+                                  <div
+                                    className="mt-12 border-t border-white/10 pt-8"
+-                                   bis_skin_checked="1"
+                                  >
+                                    <div
+                                      className="flex flex-col items-center justify-between gap-4 sm:flex-row"
+-                                     bis_skin_checked="1"
+                                    >
+                                      <p>
+                                      <div
+                                        className="flex gap-6"
+-                                       bis_skin_checked="1"
+                                      >
+                            ...
+                  ...
+
+[00:13:00.238] Browser WARN    Image with src "http://localhost:3000/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:13:00.352] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:13:00.352] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/gallery","route":"/gallery"}
+[00:13:00.352] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/gallery color: rgb(120, 120, 120) color: inherit {"dp":"/gallery","o":"http://localhost:3000/gallery","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764756580211}
+[00:13:01.884] Browser WARN    Image with src "/gallery-veneers-before.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:13:25.218] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/gallery" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Downloads...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+                          className="inter_c15e96cb-module__0bjUvq__variable"
+-                         data-google-analytics-opt-out=""
+                        >
+                          <head>
+                          <body
+                            className="font-sans antialiased min-h-screen flex flex-col"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+-                           __processed_9d93b541-1e2c-4dfb-81aa-9eb3e1708f73__="true"
+                          >
+                            <a>
+                            <script>
+                            <Header>
+                            ...
+                              <div dir="ltr" data-orientation="horizontal" data-slot="tabs" className="flex flex-..." ...>
+                                <TabsList>
+                                ...
+                                  <Primitive.div data-state="active" data-orientation="horizontal" role="tabpanel" ...>
+                                    <div data-state="active" data-orientation="horizontal" role="tabpanel" ...>
+                                      <div className="grid gap-8...">
+                                        <div>
+                                        <div
+                                          id="gallery-2"
+                                          data-gallery-item={true}
+                                          className="group relative rounded-2xl transition-all duration-[420ms] ease-[..."
+                                          style={{transitionDelay:"80ms"}}
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="absolute -inset-1 bg-gradient-to-r from-dental-secondary/40 to-..."
+-                                           bis_skin_checked="1"
+                                          >
+                                          <div
+                                            className="relative bg-white/5 backdrop-blur-md border border-white/10 rou..."
+-                                           bis_skin_checked="1"
+                                          >
+                                            <button onClick={function onClick} className="w-full tex..." ...>
+                                              <div
+                                                className="grid grid-cols-2 gap-4"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="relative aspect-square overflow-hidden rounded-xl ring-1 ..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <img>
+                                                  <div
+                                                    className="absolute inset-0 bg-gradient-to-t from-black/40 via-tra..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  ...
+                                                <div
+                                                  className="relative aspect-square overflow-hidden rounded-xl ring-1 ..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <img>
+                                                  <div
+                                                    className="absolute inset-0 bg-gradient-to-t from-dental-secondary..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  ...
+                                              <div
+                                                className="mt-5 flex items-center justify-between"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+-                                                 bis_skin_checked="1"
+                                                >
+                                                <div
+                                                  className="flex h-10 w-10 items-center justify-center rounded-full b..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                        <div
+                                          id="gallery-3"
+                                          data-gallery-item={true}
+                                          className="group relative rounded-2xl transition-all duration-[420ms] ease-[..."
+                                          style={{transitionDelay:"160ms"}}
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="absolute -inset-1 bg-gradient-to-r from-dental-secondary/40 to-..."
+-                                           bis_skin_checked="1"
+                                          >
+                                          <div
+                                            className="relative bg-white/5 backdrop-blur-md border border-white/10 rou..."
+-                                           bis_skin_checked="1"
+                                          >
+                                            <button onClick={function onClick} className="w-full tex..." ...>
+                                              <div
+                                                className="grid grid-cols-2 gap-4"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="relative aspect-square overflow-hidden rounded-xl ring-1 ..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <img>
+                                                  <div
+                                                    className="absolute inset-0 bg-gradient-to-t from-black/40 via-tra..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  ...
+                                                <div
+                                                  className="relative aspect-square overflow-hidden rounded-xl ring-1 ..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <img>
+                                                  <div
+                                                    className="absolute inset-0 bg-gradient-to-t from-dental-secondary..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  ...
+                                              <div
+                                                className="mt-5 flex items-center justify-between"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+-                                                 bis_skin_checked="1"
+                                                >
+                                                <div
+                                                  className="flex h-10 w-10 items-center justify-center rounded-full b..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                        <div
+                                          id="gallery-4"
+                                          data-gallery-item={true}
+                                          className="group relative rounded-2xl transition-all duration-[420ms] ease-[..."
+                                          style={{transitionDelay:"240ms"}}
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="absolute -inset-1 bg-gradient-to-r from-dental-secondary/40 to-..."
+-                                           bis_skin_checked="1"
+                                          >
+                                          <div
+                                            className="relative bg-white/5 backdrop-blur-md border border-white/10 rou..."
+-                                           bis_skin_checked="1"
+                                          >
+                                            <button onClick={function onClick} className="w-full tex..." ...>
+                                              <div
+                                                className="grid grid-cols-2 gap-4"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+                                                  className="relative aspect-square overflow-hidden rounded-xl ring-1 ..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <img>
+                                                  <div
+                                                    className="absolute inset-0 bg-gradient-to-t from-black/40 via-tra..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  ...
+                                                <div
+                                                  className="relative aspect-square overflow-hidden rounded-xl ring-1 ..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                                  <img>
+                                                  <div
+                                                    className="absolute inset-0 bg-gradient-to-t from-dental-secondary..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  ...
+                                              <div
+                                                className="mt-5 flex items-center justify-between"
+-                                               bis_skin_checked="1"
+                                              >
+                                                <div
+-                                                 bis_skin_checked="1"
+                                                >
+                                                <div
+                                                  className="flex h-10 w-10 items-center justify-center rounded-full b..."
+-                                                 bis_skin_checked="1"
+                                                >
+                                <TabsContent value="equipment">
+                                  <TabsContent data-slot="tabs-content" className="flex-1 out..." value="equipment">
+                                    <Presence present={false}>
+                                      <Primitive.div data-state="inactive" data-orientation="horizontal" role="tabpanel" ...>
+                                        <div
+                                          data-state="inactive"
+                                          data-orientation="horizontal"
+                                          role="tabpanel"
+                                          aria-labelledby="radix-_R_fpbn5rilb_-trigger-equipment"
+                                          hidden={true}
+                                          id="radix-_R_fpbn5rilb_-content-equipment"
+                                          tabIndex={0}
+                                          data-slot="tabs-content"
+                                          className="flex-1 outline-none"
+                                          style={{animationDuration:undefined}}
+                                          ref={function}
+-                                         bis_skin_checked="1"
+                                        >
+                            <Footer>
+                              <footer className="bg-gradien..." role="contentinfo">
+                                <div
+                                  className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16"
+-                                 bis_skin_checked="1"
+                                >
+                                  <div
+                                    className="grid gap-8 lg:grid-cols-4"
+-                                   bis_skin_checked="1"
+                                  >
+                                    <div
+                                      className="lg:col-span-1"
+-                                     bis_skin_checked="1"
+                                    >
+                                      <img>
+                                      <p>
+                                      <div
+                                        className="mt-6 flex items-center gap-4"
+-                                       bis_skin_checked="1"
+                                      >
+                                    <div
+-                                     bis_skin_checked="1"
+                                    >
+                                    <div
+-                                     bis_skin_checked="1"
+                                    >
+                                    <div
+-                                     bis_skin_checked="1"
+                                    >
+                                      <h3>
+                                      <ul className="mt-4 space...">
+                                        <li>
+                                        <li>
+                                        <li>
+                                        <li className="flex items...">
+                                          <svg>
+                                          <div
+                                            className="text-sm text-white/70"
+-                                           bis_skin_checked="1"
+                                          >
+                                  <div
+                                    className="mt-12 border-t border-white/10 pt-8"
+-                                   bis_skin_checked="1"
+                                  >
+                                    <div
+                                      className="flex flex-col items-center justify-between gap-4 sm:flex-row"
+-                                     bis_skin_checked="1"
+                                    >
+                                      <p>
+                                      <div
+                                        className="flex gap-6"
+-                                       bis_skin_checked="1"
+                                      >
+                            ...
+                  ...
+
+[00:13:25.218] Browser WARN    Image with src "http://localhost:3000/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:13:25.218] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:13:25.218] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/gallery","route":"/gallery"}
+[00:13:25.218] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/gallery color: rgb(120, 120, 120) color: inherit {"dp":"/gallery","o":"http://localhost:3000/gallery","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764756604942}
+[00:13:28.237] Browser WARN    Image with src "/gallery-whitening-before.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:13:28.339] Browser WARN    Image with src "/gallery-veneers-before.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:13:41.126] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764756620937}
+[00:13:44.961] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764756624687}
+[00:14:07.251] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/privacy color: rgb(120, 120, 120) color: inherit {"dp":"/privacy","o":"http://localhost:3000/privacy","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764756647102}
+[00:17:37.950] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764756857735}
+[00:17:50.283] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/services color: rgb(120, 120, 120) color: inherit {"dp":"/services","o":"http://localhost:3000/services","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764756870136}
+[00:18:07.949] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/gallery color: rgb(120, 120, 120) color: inherit {"dp":"/gallery","o":"http://localhost:3000/gallery","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764756887800}
+[00:18:21.627] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764756901481}
+[00:18:27.945] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/testimonials color: rgb(120, 120, 120) color: inherit {"dp":"/testimonials","o":"http://localhost:3000/testimonials","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764756907794}
+[00:18:32.467] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/services color: rgb(120, 120, 120) color: inherit {"dp":"/services","o":"http://localhost:3000/services","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764756912324}
+[00:23:52.413] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/services" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head headCacheNode={{lazyData:null, ...}}>
+                    <__next_viewport_boundary__>
+                    <Next.Metadata>
+                      <div
+                        hidden={true}
+-                       bis_skin_checked="1"
+                      >
+                    ...
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Downloads...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+                          className="inter_c15e96cb-module__0bjUvq__variable"
+-                         data-google-analytics-opt-out=""
+                        >
+                          <head>
+                          <body
+                            className="font-sans antialiased min-h-screen flex flex-col"
+-                           __processed_19328ffb-0268-40db-8790-b609c1347395__="true"
+-                           bis_register="W3sibWFzdGVyIjp0cnVlLCJleHRlbnNpb25JZCI6ImVwcGlvY2VtaG1ubGJoanBsY2drb2ZjaWll..."
+-                           data-new-gr-c-s-check-loaded="14.1264.0"
+-                           data-gr-ext-installed=""
+                          >
+                            <a>
+                            <script>
+                            <Header>
+                              <header className="sticky top...">
+                                <nav className="mx-auto ma..." aria-label="Main navig...">
+                                  <div
+                                    className="flex h-16 items-center justify-between lg:h-20"
+-                                   bis_skin_checked="1"
+                                  >
+                                    <LinkComponent>
+                                    <div
+                                      className="hidden lg:flex lg:items-center lg:gap-8"
+-                                     bis_skin_checked="1"
+                                    >
+                                    <div
+                                      className="hidden lg:flex lg:items-center lg:gap-4"
+-                                     bis_skin_checked="1"
+                                    >
+                                    ...
+                            ...
+                              <SegmentViewNode type="page" pagePath="/Downloads...">
+                                <SegmentTrieNode>
+                                <ServicesPage>
+                                  <ServicesPage>
+                                    <PageHero title="Our Dental..." description="From routi..." imageSrc="/modern-de...">
+                                      <section className="relative m...">
+                                        <div
+                                          className="absolute inset-0 z-0"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <div
+                                            className="h-full w-full bg-cover bg-center scale-105"
+                                            style={{backgroundImage:"url(/moder..."}}
+                                            aria-hidden="true"
+-                                           bis_skin_checked="1"
+                                          >
+                                          <div
+                                            className="absolute inset-0 bg-gradient-to-b from-dental-deep/50 via-denta..."
+-                                           bis_skin_checked="1"
+                                          >
+                                          <div
+                                            className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--t..."
+-                                           bis_skin_checked="1"
+                                          >
+                                        <div
+                                          className="relative z-10 mx-auto max-w-7xl px-4 py-24 text-center sm:px-6 lg..."
+-                                         bis_skin_checked="1"
+                                        >
+                                        <div
+                                          className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-denta..."
+-                                         bis_skin_checked="1"
+                                        >
+                                  <ServicesPage>
+                                    <section className="py-16 lg:p...">
+                                      <div
+                                        className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"
+-                                       bis_skin_checked="1"
+                                      >
+                                        <div
+                                          className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3"
+-                                         bis_skin_checked="1"
+                                        >
+                                          <ServiceCard id="teeth-whit..." title="Teeth Whit..." ...>
+                                            <div
+                                              ref={{current:null}}
+                                              className="group transition-all duration-[420ms] ease-[cubic-bezier(0.22..."
+                                              style={{transitionDelay:"0ms"}}
+-                                             bis_skin_checked="1"
+                                            >
+                                              <LinkComponent href="/services/..." className="block h-fu...">
+                                                <a className="block h-fu..." ref={function} onClick={function onClick} ...>
+                                                  <div
+                                                    className="flex h-12 w-12 items-center justify-center rounded-xl b..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <h3>
+                                                  <p>
+                                                  <div
+                                                    className="mt-4 flex items-center text-sm font-medium text-dental-..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                          <ServiceCard id="dental-imp..." title="Dental Imp..." ...>
+                                            <div
+                                              ref={{current:null}}
+                                              className="group transition-all duration-[420ms] ease-[cubic-bezier(0.22..."
+                                              style={{transitionDelay:"80ms"}}
+-                                             bis_skin_checked="1"
+                                            >
+                                              <LinkComponent href="/services/..." className="block h-fu...">
+                                                <a className="block h-fu..." ref={function} onClick={function onClick} ...>
+                                                  <div
+                                                    className="flex h-12 w-12 items-center justify-center rounded-xl b..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <h3>
+                                                  <p>
+                                                  <div
+                                                    className="mt-4 flex items-center text-sm font-medium text-dental-..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                          <ServiceCard id="braces" title={"Braces &..."} shortDescription="Straighten..." ...>
+                                            <div
+                                              ref={{current:null}}
+                                              className="group transition-all duration-[420ms] ease-[cubic-bezier(0.22..."
+                                              style={{transitionDelay:"160ms"}}
+-                                             bis_skin_checked="1"
+                                            >
+                                              <LinkComponent href="/services/..." className="block h-fu...">
+                                                <a className="block h-fu..." ref={function} onClick={function onClick} ...>
+                                                  <div
+                                                    className="flex h-12 w-12 items-center justify-center rounded-xl b..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <h3>
+                                                  <p>
+                                                  <div
+                                                    className="mt-4 flex items-center text-sm font-medium text-dental-..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                          <ServiceCard id="veneers" title="Dental Ven..." ...>
+                                            <div
+                                              ref={{current:null}}
+                                              className="group transition-all duration-[420ms] ease-[cubic-bezier(0.22..."
+                                              style={{transitionDelay:"240ms"}}
+-                                             bis_skin_checked="1"
+                                            >
+                                              <LinkComponent href="/services/..." className="block h-fu...">
+                                                <a className="block h-fu..." ref={function} onClick={function onClick} ...>
+                                                  <div
+                                                    className="flex h-12 w-12 items-center justify-center rounded-xl b..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <h3>
+                                                  <p>
+                                                  <div
+                                                    className="mt-4 flex items-center text-sm font-medium text-dental-..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                          <ServiceCard id="root-canal" title="Root Canal..." ...>
+                                            <div
+                                              ref={{current:null}}
+                                              className="group transition-all duration-[420ms] ease-[cubic-bezier(0.22..."
+                                              style={{transitionDelay:"320ms"}}
+-                                             bis_skin_checked="1"
+                                            >
+                                              <LinkComponent href="/services/..." className="block h-fu...">
+                                                <a className="block h-fu..." ref={function} onClick={function onClick} ...>
+                                                  <div
+                                                    className="flex h-12 w-12 items-center justify-center rounded-xl b..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <h3>
+                                                  <p>
+                                                  <div
+                                                    className="mt-4 flex items-center text-sm font-medium text-dental-..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                          <ServiceCard id="smile-make..." title="Smile Make..." ...>
+                                            <div
+                                              ref={{current:null}}
+                                              className="group transition-all duration-[420ms] ease-[cubic-bezier(0.22..."
+                                              style={{transitionDelay:"400ms"}}
+-                                             bis_skin_checked="1"
+                                            >
+                                              <LinkComponent href="/services/..." className="block h-fu...">
+                                                <a className="block h-fu..." ref={function} onClick={function onClick} ...>
+                                                  <div
+                                                    className="flex h-12 w-12 items-center justify-center rounded-xl b..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                                                  <h3>
+                                                  <p>
+                                                  <div
+                                                    className="mt-4 flex items-center text-sm font-medium text-dental-..."
+-                                                   bis_skin_checked="1"
+                                                  >
+                            <Footer>
+                              <footer className="bg-gradien..." role="contentinfo">
+                                <div
+                                  className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16"
+-                                 bis_skin_checked="1"
+                                >
+                                  <div
+                                    className="grid gap-8 lg:grid-cols-4"
+-                                   bis_skin_checked="1"
+                                  >
+                                    <div
+                                      className="lg:col-span-1"
+-                                     bis_skin_checked="1"
+                                    >
+                                      <img>
+                                      <p>
+                                      <div
+                                        className="mt-6 flex items-center gap-4"
+-                                       bis_skin_checked="1"
+                                      >
+                                    <div
+-                                     bis_skin_checked="1"
+                                    >
+                                    <div
+-                                     bis_skin_checked="1"
+                                    >
+                                    <div
+-                                     bis_skin_checked="1"
+                                    >
+                                      <h3>
+                                      <ul className="mt-4 space...">
+                                        <li>
+                                        <li>
+                                        <li>
+                                        <li className="flex items...">
+                                          <svg>
+                                          <div
+                                            className="text-sm text-white/70"
+-                                           bis_skin_checked="1"
+                                          >
+                                  <div
+                                    className="mt-12 border-t border-white/10 pt-8"
+-                                   bis_skin_checked="1"
+                                  >
+                                    <div
+                                      className="flex flex-col items-center justify-between gap-4 sm:flex-row"
+-                                     bis_skin_checked="1"
+                                    >
+                                      <p>
+                                      <div
+                                        className="flex gap-6"
+-                                       bis_skin_checked="1"
+                                      >
+                            ...
+                  ...
+
+[00:23:52.768] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:23:52.768] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/services","route":"/services"}
+[00:23:52.768] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/services color: rgb(120, 120, 120) color: inherit {"dp":"/services","o":"http://localhost:3000/services","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764757232628}
+[00:24:21.294] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/services/teeth-whitening color: rgb(120, 120, 120) color: inherit {"dp":"/services/[slug]","o":"http://localhost:3000/services/teeth-whitening","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1764757261049}

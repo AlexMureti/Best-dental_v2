@@ -1,0 +1,13 @@
+var R=require("../../chunks/ssr/[turbopack]_runtime.js")("server/app/_not-found/page.js")
+R.c("server/chunks/ssr/3dd9d_next_dist_8bb7517a._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__9bc81025._.js")
+R.c("server/chunks/ssr/3dd9d_next_dist_61613540._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__7f148858._.js")
+R.c("server/chunks/ssr/3dd9d_8ba0702f._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__3bffed72._.js")
+R.c("server/chunks/ssr/3dd9d_aa35b783._.js")
+R.c("server/chunks/ssr/Downloads_best-dental-website_2134570e._.js")
+R.c("server/chunks/ssr/3dd9d_next_dist_client_components_21f51d8f._.js")
+R.c("server/chunks/ssr/6c7f9_best-dental-website__next-internal_server_app__not-found_page_actions_85d55155.js")
+R.m("[project]/Downloads/best-dental-website/node_modules/next/dist/esm/build/templates/app-page.js?page=/_not-found/page { MODULE_0 => \"[project]/Downloads/best-dental-website/app/layout.tsx [app-rsc] (ecmascript, Next.js Server Component)\", MODULE_1 => \"[project]/Downloads/best-dental-website/app/not-found.tsx [app-rsc] (ecmascript, Next.js Server Component)\", MODULE_2 => \"[project]/Downloads/best-dental-website/node_modules/next/dist/client/components/builtin/forbidden.js [app-rsc] (ecmascript, Next.js Server Component)\", MODULE_3 => \"[project]/Downloads/best-dental-website/node_modules/next/dist/client/components/builtin/unauthorized.js [app-rsc] (ecmascript, Next.js Server Component)\", MODULE_4 => \"[project]/Downloads/best-dental-website/app/not-found.tsx [app-rsc] (ecmascript, Next.js Server Component)\" } [app-rsc] (ecmascript)")
+module.exports=R.m("[project]/Downloads/best-dental-website/node_modules/next/dist/esm/build/templates/app-page.js?page=/_not-found/page { MODULE_0 => \"[project]/Downloads/best-dental-website/app/layout.tsx [app-rsc] (ecmascript, Next.js Server Component)\", MODULE_1 => \"[project]/Downloads/best-dental-website/app/not-found.tsx [app-rsc] (ecmascript, Next.js Server Component)\", MODULE_2 => \"[project]/Downloads/best-dental-website/node_modules/next/dist/client/components/builtin/forbidden.js [app-rsc] (ecmascript, Next.js Server Component)\", MODULE_3 => \"[project]/Downloads/best-dental-website/node_modules/next/dist/client/components/builtin/unauthorized.js [app-rsc] (ecmascript, Next.js Server Component)\", MODULE_4 => \"[project]/Downloads/best-dental-website/app/not-found.tsx [app-rsc] (ecmascript, Next.js Server Component)\" } [app-rsc] (ecmascript)").exports
