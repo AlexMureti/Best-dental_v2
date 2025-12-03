@@ -1,0 +1,24 @@
+[
+  {
+    "id": "dr-ken-walibora",
+    "name": "Dr. Ken Walibora",
+    "role": "Lead Dentist & Founder",
+    "bio": "Dr. Ken Walibora founded Best Dental with a vision to bring world-class cosmetic dentistry to Juja. With over 10 years of experience and advanced training in aesthetic procedures, he combines precision technique with genuine patient care.",
+    "image": "/team-dr-ken-walibora.jpg",
+    "qualifications": [
+      "BDS (University of Nairobi)",
+      "Advanced Cosmetic Dentistry Certification",
+      "Member, Kenya Dental Association"
+    ],
+    "specialties": ["Cosmetic Dentistry", "Dental Implants", "Smile Design"]
+  },
+  {
+    "id": "mary-wanjiku",
+    "name": "Mary Wanjiku",
+    "role": "Dental Hygienist",
+    "bio": "Mary ensures every patient receives thorough preventive care. Her gentle approach makes even nervous patients feel at ease during cleanings and checkups.",
+    "image": "/team-mary-wanjiku.jpg",
+    "qualifications": ["Diploma in Dental Hygiene"],
+    "specialties": ["Preventive Care", "Patient Education"]
+  }
+]
