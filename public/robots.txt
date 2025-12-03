@@ -1,0 +1,8 @@
+# robots.txt for Best Dental
+User-agent: *
+Allow: /
+
+Sitemap: https://bestdental.co.ke/sitemap.xml
+
+# Disallow admin or internal paths
+Disallow: /api/
